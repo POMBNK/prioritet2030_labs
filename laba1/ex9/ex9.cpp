@@ -10,10 +10,6 @@ int main() {
   int second = n/100 %100%10;
   int third = n/10%10;
   int fourth = n%1000%100%10;
-  // cout<<"first:"<<first<<endl;
-  // cout<<"second:"<<second<<endl;
-  // cout<<"third:"<<third<<endl;
-  // cout<<"fourth:"<<fourth<<endl;
   cout<<"Равна ли сумма первых двух и последних двух цифр?\n";
   if ((first+second)==(third+fourth)){
     cout<<"True\n";
